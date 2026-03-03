@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<link href="../favicon.png" rel='shortcut icon' type='image/png'/>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="Universidad Estatal a Distancia (UNED)">
+<meta name="description" content="El multimedia Partes del todo – Proyecto Pedagógico Coral Vivace, es un material educativo interactivo diseñado para abordar temáticas cercanas a la práctica musical coral, que representa una muestra de la variedad y riqueza musical costarricense interpretada por el Coro de la UNED. 
+Este multimedia presenta 10 canciones del repertorio tradicional nacional interpretadas por el Proyecto Pedagógico Coral Vivace, en donde además, para cada pieza musical, se adicionan datos sobre su respectivo compositor, la letra y la partitura específica. Otra particularidad es que cada canción cuenta con un video del Coro interpretándola.
+Pero tal vez el rasgo más característico del multimedia educativo “Partes del todo” sea la posibilidad que brinda de seleccionar una o varias de las distintas voces que componen cada canción mientras es interpretada, por lo que se pueden hacer distintas combinaciones según lo desee la persona usuaria.
+">
+<meta name="generator" content="Bootstrap 3, HTML5">
+<title>Coro</title>
+
+<!--ESTILOS PARA VENTANA DE DETALLE -->
+<link rel="stylesheet" type="text/css" href="../css/photoswipe.css">
+<link rel="stylesheet" type="text/css" href="../css/default-skin/default-skin.css">
+<!--ESTILOS PARA VENTANA DE DETALLE -->
+
+<!-- Bootstrap -->
+<link rel="stylesheet" href="../css/bootstrap.css">
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/estilos.css">  
+
+</head>    
+<div id="opaco"></div>
+<body id="body16">
+      
+ <!--VENTANA-->    
+<div class="contenedor_ventana" align="center">
+	<div class="ventana">
+		<div id="vinneta_iden"><samp>Partes del todo</samp> &bull; Interpretaciones &bull; Pasión</div>
+		<div id="salir_ventana" onClick="cierra_ventana();"><img alt="Botón salir ventana" src="../images/botones/menu/salir_menu.png"></div>
+		
+		<div id="carga_contenido_v"></div>
+		
+		<div id="contenedor_partituras">
+			<div class="contiene_carrusel"><div class="carousel-wrapper" style="height: 400px;"><!--Cambio 1--><span id="target-item-1"></span><span id="target-item-2"></span><span id="target-item-3"></span><!--Cambio 1--><!--Item 1--><div class="carousel-item item-1"><div class="contendi_carru">
+
+
+				<div id="descargapartitura">
+        	<a class="descargavocalizo" href="../images/partituras/Pasion.pdf" download="Pasion">Descargar partitura <img  alt="Botón descarga partitura" src="../images/botones/sub_menu/boton_descarga.png"></a>
+        </div>
+
+
+				<h4><!--Cambio 2-->1 de 3<!--Cambio 2--></h4><div class="my-gallery-partitura" itemscope><figure itemprop="associatedMedia" itemscope ><!--Cambio 3--><a   href="../images/partituras/partituras_cancion_9/pasion-01.png" itemprop="contentUrl" data-size="2116x2150"><img src="../images/partituras/partituras_cancion_9/pasion-01.png" itemprop="thumbnail" alt="Imagen de partitura 1" /></a><!--Cambio 3--></figure></div><a class="arrow arrow-prev" href="#target-item-7"><p> <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+</svg></p></a><a class="arrow arrow-next" href="#target-item-2"><p><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+</svg> </p></a></div></div><!--Item 1--><!--Item 2--><div class="carousel-item item-2 light"><div class="contendi_carru"><h4><!--Cambio 2-->2 de 3<!--Cambio 2--></h4><div class="my-gallery-partitura" itemscope><figure itemprop="associatedMedia" itemscope ><!--Cambio 3--><a   href="../images/partituras/partituras_cancion_9/pasion-02.png" itemprop="contentUrl" data-size="2116x2150"><img src="../images/partituras/partituras_cancion_9/pasion-02.png" itemprop="thumbnail" alt="Imagen de partitura 2" /></a><!--Cambio 3--></figure></div><a class="arrow arrow-prev" href="#target-item-1"><p> <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+</svg></p></a><a class="arrow arrow-next" href="#target-item-3"><p><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+</svg> </p></a></div></div><!--Item 2--><!--Item 3--><div class="carousel-item item-3"><div class="contendi_carru"><h4><!--Cambio 2-->3 de 3<!--Cambio 2--></h4><div class="my-gallery-partitura" itemscope><figure itemprop="associatedMedia" itemscope ><!--Cambio 3--><a   href="../images/partituras/partituras_cancion_9/pasion-03.png" itemprop="contentUrl" data-size="2116x2150"><img src="../images/partituras/partituras_cancion_9/pasion-03.png" itemprop="thumbnail" alt="Imagen de partitura 3" /></a><!--Cambio 3--></figure></div><a class="arrow arrow-prev" href="#target-item-2"><p> <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+</svg></p></a><a class="arrow arrow-next" href="#target-item-4"><p><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+</svg> </p></a></div></div><!--Item 3--></div></div>
+		</div>
+		
+	</div>
+</div> 
+ <!--VENTANA-->       
+      
+       
+<!--boton MENU-->
+<div class="contenedor_botonmenu" align="center"><div id="botonmenu"><img alt="Botón de menú" src="../images/botones/menu/boton_menu_bento.png" class="fadeIn zoom"></div></div>	
+<!--boton MENU-->
+  
+<!--MENU-->
+<div class="contenedor_menu" align="center">
+	<div class="menu">
+		<div class="contenedor_ima_salir" align="center"><div id="botonsalir"><img alt="Botón salir" src="../images/botones/menu/salir_menu.png" class="fadeIn zoom"></div></div> 
+		<div class="contenedor_items">
+			<div class="item" id="item_6" onclick="window.location.href='tecnica_coral.html'"><div class="item_bullet"><img alt="Icono TÉCNICA VOCAL CORAL" src="../images/botones/menu/bullet_menu.png"></div><div class="item_texto">TÉCNICA VOCAL CORAL</div></div>
+			<div class="item" id="item_7" onclick="window.location.href='tecnica_coral.html#practica'"><div class="item_bullet"><img  alt="Icono Práctica coral" src="../images/botones/menu/bullet_menu.png"></div><div class="item_texto">Práctica coral</div></div>
+			<div class="item" id="item_8" onclick="window.location.href='tecnica_coral.html#produccion'"><div class="item_bullet"><img alt="Icono Producción de la voz" src="../images/botones/menu/bullet_menu.png"></div><div class="item_texto">Producción de la voz</div></div>
+			<div class="item" id="item_12" onclick="window.location.href='tecnica_coral.html#vocalizos'"><div class="item_bullet"><img alt="Icono Calentamiento vocal" src="../images/botones/menu/bullet_menu.png"></div><div class="item_texto">Calentamiento vocal</div></div>
+		</div>
+		<div class="contenedor_items">
+			<div class="item" id="item_1" onclick="window.location.href='../index.html'"><div class="item_bullet"><img alt="Icono PRINCIPAL" src="../images/botones/menu/bullet_menu.png"></div><div class="item_texto">PRINCIPAL</div></div>
+
+			<div class="item" id="item_17" onclick="window.location.href='guia_didactica.html'"><div class="item_bullet"><img alt="Icono Guía Didáctica" src="../images/botones/menu/bullet_menu.png"></div><div class="item_texto">GUÍA DIDÁCTICA</div></div>
+			
+			<div class="item" id="item_2" onclick="window.location.href='interpretaciones.html'"><div class="item_bullet"><img alt="Icono INTERPRETACIONES" src="../images/botones/menu/bullet_menu.png"></div><div class="item_texto">INTERPRETACIONES</div></div>
+			<div class="item" id="item_3" onclick="window.location.href='c1.html'"><div class="item_bullet"><img alt="Icono El burro e´chilo" src="../images/botones/menu/bullet_menu.png"></div><div class="item_texto">El burro e´chilo</div></div>
+			<div class="item" id="item_4" onclick="window.location.href='c2.html'"><div class="item_bullet"><img alt="Icono Luna liberiana" src="../images/botones/menu/bullet_menu.png"></div><div class="item_texto">Luna liberiana</div></div>
+			<div class="item" id="item_5" onclick="window.location.href='c3.html'"><div class="item_bullet"><img alt="Icono Nayuribe" src="../images/botones/menu/bullet_menu.png"></div><div class="item_texto">Nayuribe</div></div>
+			<div class="item" id="item_13" onclick="window.location.href='c4.html'"><div class="item_bullet"><img alt="Icono Luna Herediana" src="../images/botones/menu/bullet_menu.png"></div><div class="item_texto">Luna Herediana</div></div>
+			<div class="item" id="item_14" onclick="window.location.href='c5.html'"><div class="item_bullet"><img alt="Icono Soy tico" src="../images/botones/menu/bullet_menu.png"></div><div class="item_texto">Soy tico</div></div>
+			<div class="item" id="item_15" onclick="window.location.href='c6.html'"><div class="item_bullet"><img alt="Icono Rice and Beans" src="../images/botones/menu/bullet_menu.png"></div><div class="item_texto">Rice and Beans</div></div>
+			<div class="item" id="item_16" onclick="window.location.href='c7.html'"><div class="item_bullet"><img alt="Icono Suite infantil" src="../images/botones/menu/bullet_menu.png"></div><div class="item_texto">Suite infantil</div></div>
+			<div class="item" id="item_18" onclick="window.location.href='c8.html'"><div class="item_bullet"><img alt="Icono Caña Dulce" src="../images/botones/menu/bullet_menu.png"></div><div class="item_texto">Caña Dulce</div></div>
+			<div class="item" id="item_19" onclick="window.location.href='c9.html'"><div class="item_bullet"><img alt="Icono Pasión" src="../images/botones/menu/bullet_menu.png"></div><div class="item_texto">Pasión</div></div>
+			<div class="item" id="item_20" onclick="window.location.href='c10.html'"><div class="item_bullet"><img alt="Icono Guaria morada" src="../images/botones/menu/bullet_menu.png"></div><div class="item_texto">Guaria morada</div></div>
+
+			<div class="item" id="item_11" onclick="window.location.href='historia.html'"><div class="item_bullet"><img alt="Icono HISTORIA" src="../images/botones/menu/bullet_menu.png"></div><div class="item_texto">HISTORIA</div></div>
+			<div class="item" id="item_9" onclick="window.location.href='galeria.html'"><div class="item_bullet"><img alt="Icono GALERÍA FOTOGRÁFICA" src="../images/botones/menu/bullet_menu.png"></div><div class="item_texto">GALERÍA FOTOGRÁFICA</div></div>
+			<div class="item" id="item_10" onclick="window.location.href='creditos.html'"><div class="item_bullet"><img alt="Icono CRÉDITOS" src="../images/botones/menu/bullet_menu.png"></div><div class="item_texto">CRÉDITOS</div></div>
+		</div>
+	</div>
+</div>
+<!--MENU-->                     
+        
+  
+<div class="container-fluid text-center" id="contenedor_flotante_centro"> 
+  
+  	  <h1 id="titulo1-3">PROYECTO PEDAGÓGICO CORAL VIVACE</h1>
+	  <div align="center"><hr></div>
+	  <h2 id="titulo1-4">Partes del todo</h2> 
+          
+	  <div id="contenedor_banner_botones" align="center"><div id="banner_botones">
+		  <div class="botones_sub" onClick="abre_ventana('cancion9_video');"><img alt="Botón video" src="../images/botones/sub_menu/boton_video.png"></div>
+		  <div class="botones_sub" onClick="abre_ventana('cancion9_partitura');"><img alt="Botón partitura" src="../images/botones/sub_menu/boton_partitura.png"></div>
+		  <div class="botones_sub" onClick="abre_ventana('cancion9_texto');"><img alt="Botón información" src="../images/botones/sub_menu/boton_informacion.png"></div>
+		  <div class="botones_sub" onClick="abre_ventana('cancion9_descarga');"><img alt="Botón descarga" src="../images/botones/sub_menu/boton_descarga.png"></div>
+	  </div></div>
+           
+        <div id="contenedor_controles" align="center">
+			<div id="controles">
+			
+			
+			      <div class="boton_principal" onclick="prender_check('inlineCheckbox2');"><img alt="Botón sopranos" src="../images/botones/boton_soprano.png" class="fadeIn"><p>Soprano</p><label for="inlineCheckbox2" class="container"><input type="checkbox" id="inlineCheckbox2" value="option2" checked><span class="checkmark"></span></label></div>
+			       <div class="espacio"></div>
+			       <div class="boton_principal" onclick="prender_check('inlineCheckbox3');"><img alt="Botón contraaltos" src="../images/botones/boton_contralto.png" class="fadeIn"><p>Contralto</p><label for="inlineCheckbox3" class="container"><input type="checkbox" id="inlineCheckbox3" value="option3" checked><span class="checkmark"></span></label></div>
+			       <div class="espacio nocel"></div>
+			        <div class="boton_principal" onclick="prender_check('inlineCheckbox4');"><img alt="Botón tenores" src="../images/botones/boton_tenor.png" class="fadeIn"><p>Tenor</p><label for="inlineCheckbox4" class="container"><input type="checkbox" id="inlineCheckbox4" value="option4" checked><span class="checkmark"></span></label></div>
+			       <div class="espacio notablet"></div>
+			       <div class="boton_principal" onclick="prender_check('inlineCheckbox5');"><img alt="Botón bajos" src="../images/botones/boton_bajo.png" class="fadeIn"><p>Bajo</p><label for="inlineCheckbox5" class="container"><input type="checkbox" id="inlineCheckbox5" value="option5" checked><span class="checkmark"></span></label></div>
+			       <div class="espacio nocel"></div>
+			       <div id="p_6" class="boton_principal" onclick="prender_check('inlineCheckbox6');"><img alt="Botón instrumentación" src="../images/botones/boton_intrumental.png" class="fadeIn"><p>Instrumentación</p><label for="inlineCheckbox6" class="container"><input type="checkbox" id="inlineCheckbox6" value="option6" checked><span class="checkmark"></span></label></div>
+			       <div class="espacio"></div>
+			        <div class="boton_principal" onclick="prender_check('inlineCheckbox1');"><img alt="Botón coral" src="../images/botones/boton_todos.png" class="fadeIn"><p>Coral</p><label for="inlineCheckbox1" class="container"><input type="checkbox" id="inlineCheckbox1" value="option1" checked><span class="checkmark"></span></label></div>
+	
+			</div>
+		</div>  
+             
+                 
+        <div id="contenedor_audios" align="center">
+        
+			<input type="hidden" id="audiofile" size="80" value="../canciones/cancion9/cancion9_sin.mp3" />
+			<audio id="myaudio"></audio>
+			<audio id="audio1" class="audio" src="../canciones/cancion9/sopranos.mp3"></audio> 
+			<audio id="audio2" class="audio" src="../canciones/cancion9/contraaltos.mp3"></audio>  
+			<audio id="audio3" class="audio" src="../canciones/cancion9/tenores.mp3"></audio>
+			<audio id="audio4" class="audio" src="../canciones/cancion9/bajos.mp3"></audio>   
+			<audio id="audio5" class="audio" src="../canciones/cancion9/instrumental.mp3"></audio>      
+
+			<h3 class="nombre_cancion">Pasión</h3>
+				
+				<div class="contenedor_controles">
+					<div class="contenedor_botones">
+						<button id="play" onclick="playAudio('inicio');" disabled>
+							<div id="contenido_play"><img alt="Botón interpretar - parar" src="../images/botones/boton_play.png" class="fadeIn"></div>
+						</button>
+						<button id="restart" onclick="restartAudio();" disabled>
+							<img alt="Botón reiniciar" src="../images/botones/boton_reset.png" class="fadeIn">
+						</button>
+					</div>
+				   
+				   <div class="contenedor_botones" id="contenedor_botones_2_cel">
+						<button id="rewind" onclick="rewindAudio();" disabled>
+							<div><img alt="Botón atrasar" src="../images/botones/boton_atras.png" class="fadeIn"></div>
+						</button>
+						<button id="forward" onclick="forwardAudio();" disabled>
+							<img alt="Botón adelantar" src="../images/botones/boton_adelantar.png" class="fadeIn">
+						</button>
+					</div>
+
+				   <div class="contenedor_canvas"><canvas id="canvas" width=300 height="15"></canvas><div class="covertor_canvas"></div></div>
+				   
+				  <div class="contenedor_botones" id="contenedor_botones_2_compu">
+						<button id="rewind2" onclick="rewindAudio();" disabled>
+							<div><img alt="Botón atrasar 1" src="../images/botones/boton_atras.png" class="fadeIn"></div>
+						</button>
+						<button id="forward2" onclick="forwardAudio();" disabled>
+							<img alt="Botón adelantar 1" src="../images/botones/boton_adelantar.png" class="fadeIn">
+						</button>
+					</div>
+			   </div>
+         </div> 
+                  
+</div>                              
+
+
+ <footer class="text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+         <p><a href="https://www.uned.ac.cr/" target="_blank">UNIVERSIDAD ESTATAL A DISTANCIA DE COSTA RICA</a></p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!--VENTANA DE DETALLE -->
+<!--https://schema.org/ImageGallery-->
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+    <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe. 
+         It's a separate element, as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides. PhotoSwipe keeps only 3 slides in DOM to save memory. -->
+        <!-- don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+               <!-- <button class="pswp__button pswp__button--share" title="Share"></button>-->
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+          </div>
+
+        </div>
+
+</div>
+<!--VENTANA DE DETALLE -->
+
+<!--JS PARA VENTANA DE DETALLE -->
+<script src="../js/photoswipe-ui-default.min.js"></script>
+<script src="../js/photoswipe.min.js"></script>
+<!--JS PARA VENTANA DE DETALLE -->	
+	
+<script type="text/javascript">
+      //Check for support and enable buttons
+      if (window.HTMLAudioElement) {
+             document.getElementById("play").disabled = false;
+             document.getElementById("rewind").disabled = false;
+             document.getElementById("forward").disabled = false;
+		     document.getElementById("rewind2").disabled = false;
+             document.getElementById("forward2").disabled = false;
+             document.getElementById("restart").disabled = false;
+      }
+
+</script>  
+	
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-153563382-8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+ 
+  gtag('config', 'UA-153563382-8');
+</script>
+		
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="../js/jquery-1.11.3.min.js"></script> 
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="../js/bootstrap.js"></script>
+<script src="../js/funciones.js"></script>
+<script src="../js/audio_funciones.js"></script>
+<script src="../js/funciones_ventana.js"></script>
+</body>
+</html>

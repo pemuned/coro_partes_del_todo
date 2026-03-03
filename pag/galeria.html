@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<link href="../favicon.png" rel='shortcut icon' type='image/png'/>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="Universidad Estatal a Distancia (UNED)">
+<meta name="description" content="El multimedia Partes del todo – Proyecto Pedagógico Coral Vivace, es un material educativo interactivo diseñado para abordar temáticas cercanas a la práctica musical coral, que representa una muestra de la variedad y riqueza musical costarricense interpretada por el Coro de la UNED. 
+Este multimedia presenta 10 canciones del repertorio tradicional nacional interpretadas por el Proyecto Pedagógico Coral Vivace, en donde además, para cada pieza musical, se adicionan datos sobre su respectivo compositor, la letra y la partitura específica. Otra particularidad es que cada canción cuenta con un video del Coro interpretándola.
+Pero tal vez el rasgo más característico del multimedia educativo “Partes del todo” sea la posibilidad que brinda de seleccionar una o varias de las distintas voces que componen cada canción mientras es interpretada, por lo que se pueden hacer distintas combinaciones según lo desee la persona usuaria.
+">
+<meta name="generator" content="Bootstrap 3, HTML5">
+<title>Coro</title>
+
+<!--ESTILOS PARA VENTANA DE DETALLE -->
+<link rel="stylesheet" type="text/css" href="../css/photoswipe.css">
+<link rel="stylesheet" type="text/css" href="../css/default-skin/default-skin.css">
+<!--ESTILOS PARA VENTANA DE DETALLE -->
+<!--ESTILOS PARA GALERIA MOSAICO -->
+ <link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<!--ESTILOS PARA GALERIA MOSAICO -->
+<!-- Bootstrap -->
+<!--<link rel="stylesheet" href="../css/bootstrap.css">-->
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/estilos.css">       
+</head>
+
+<!--<div id="opaco"></div> -->      
+
+<body id="body6">
+  
+<!--boton MENU-->
+<div class="contenedor_botonmenu" align="center"><div id="botonmenu"><img alt="Botón de menú" src="../images/botones/menu/boton_menu_bento.png" class="fadeIn zoom"></div></div>	
+<!--boton MENU-->
+  
+<!--MENU-->
+<div class="contenedor_menu" align="center">
+	<div class="menu">
+		<div class="contenedor_ima_salir" align="center"><div id="botonsalir"><img alt="Botón salir" src="../images/botones/menu/salir_menu.png" class="fadeIn zoom"></div></div> 
+		<div class="contenedor_items">
+			<div class="item" id="item_6" onclick="window.location.href='tecnica_coral.html'"><div class="item_bullet"><img alt="Icono TÉCNICA VOCAL CORAL" src="../images/botones/menu/bullet_menu.png"></div><div class="item_texto">TÉCNICA VOCAL CORAL</div></div>
+			<div class="item" id="item_7" onclick="window.location.href='tecnica_coral.html#practica'"><div class="item_bullet"><img  alt="Icono Práctica coral" src="../images/botones/menu/bullet_menu.png"></div><div class="item_texto">Práctica coral</div></div>
+			<div class="item" id="item_8" onclick="window.location.href='tecnica_coral.html#produccion'"><div class="item_bullet"><img alt="Icono Producción de la voz" src="../images/botones/menu/bullet_menu.png"></div><div class="item_texto">Producción de la voz</div></div>
+			<div class="item" id="item_12" onclick="window.location.href='tecnica_coral.html#vocalizos'"><div class="item_bullet"><img alt="Icono Calentamiento vocal" src="../images/botones/menu/bullet_menu.png"></div><div class="item_texto">Calentamiento vocal</div></div>
+		</div>
+		<div class="contenedor_items">
+			<div class="item" id="item_1" onclick="window.location.href='../index.html'"><div class="item_bullet"><img alt="Icono PRINCIPAL" src="../images/botones/menu/bullet_menu.png"></div><div class="item_texto">PRINCIPAL</div></div>
+			<div class="item" id="item_17" onclick="window.location.href='guia_didactica.html'"><div class="item_bullet"><img alt="Icono Guía Didáctica" src="../images/botones/menu/bullet_menu.png"></div><div class="item_texto">GUÍA DIDÁCTICA</div></div>
+			
+			<div class="item" id="item_2" onclick="window.location.href='interpretaciones.html'"><div class="item_bullet"><img alt="Icono INTERPRETACIONES" src="../images/botones/menu/bullet_menu.png"></div><div class="item_texto">INTERPRETACIONES</div></div>
+			<div class="item" id="item_3" onclick="window.location.href='c1.html'"><div class="item_bullet"><img alt="Icono El burro e´chilo" src="../images/botones/menu/bullet_menu.png"></div><div class="item_texto">El burro e´chilo</div></div>
+			<div class="item" id="item_4" onclick="window.location.href='c2.html'"><div class="item_bullet"><img alt="Icono Luna liberiana" src="../images/botones/menu/bullet_menu.png"></div><div class="item_texto">Luna liberiana</div></div>
+			<div class="item" id="item_5" onclick="window.location.href='c3.html'"><div class="item_bullet"><img alt="Icono Nayuribe" src="../images/botones/menu/bullet_menu.png"></div><div class="item_texto">Nayuribe</div></div>
+			<div class="item" id="item_13" onclick="window.location.href='c4.html'"><div class="item_bullet"><img alt="Icono Luna Herediana" src="../images/botones/menu/bullet_menu.png"></div><div class="item_texto">Luna Herediana</div></div>
+			<div class="item" id="item_14" onclick="window.location.href='c5.html'"><div class="item_bullet"><img alt="Icono Soy tico" src="../images/botones/menu/bullet_menu.png"></div><div class="item_texto">Soy tico</div></div>
+			<div class="item" id="item_15" onclick="window.location.href='c6.html'"><div class="item_bullet"><img alt="Icono Rice and Beans" src="../images/botones/menu/bullet_menu.png"></div><div class="item_texto">Rice and Beans</div></div>
+			<div class="item" id="item_16" onclick="window.location.href='c7.html'"><div class="item_bullet"><img alt="Icono Suite infantil" src="../images/botones/menu/bullet_menu.png"></div><div class="item_texto">Suite infantil</div></div>
+			<div class="item" id="item_18" onclick="window.location.href='c8.html'"><div class="item_bullet"><img alt="Icono Caña Dulce" src="../images/botones/menu/bullet_menu.png"></div><div class="item_texto">Caña Dulce</div></div>
+			<div class="item" id="item_19" onclick="window.location.href='c9.html'"><div class="item_bullet"><img alt="Icono Pasión" src="../images/botones/menu/bullet_menu.png"></div><div class="item_texto">Pasión</div></div>
+			<div class="item" id="item_20" onclick="window.location.href='c10.html'"><div class="item_bullet"><img alt="Icono Guaria morada" src="../images/botones/menu/bullet_menu.png"></div><div class="item_texto">Guaria morada</div></div>
+
+			<div class="item" id="item_11" onclick="window.location.href='historia.html'"><div class="item_bullet"><img alt="Icono HISTORIA" src="../images/botones/menu/bullet_menu.png"></div><div class="item_texto">HISTORIA</div></div>
+			<div class="item" id="item_9" onclick="window.location.href='galeria.html'"><div class="item_bullet"><img alt="Icono GALERÍA FOTOGRÁFICA" src="../images/botones/menu/bullet_menu.png"></div><div class="item_texto">GALERÍA FOTOGRÁFICA</div></div>
+			<div class="item" id="item_10" onclick="window.location.href='creditos.html'"><div class="item_bullet"><img alt="Icono CRÉDITOS" src="../images/botones/menu/bullet_menu.png"></div><div class="item_texto">CRÉDITOS</div></div>
+		</div>
+	</div>
+</div>
+<!--MENU-->     
+
+<div class="container-fluid text-center" id="contenedor_galeria"> 
+       
+	  <h1 id="titulo1-3">PROYECTO PEDAGÓGICO CORAL VIVACE</h1>
+	  <div align="center"><hr></div>
+	  <h2 id="titulo1-4">Partes del todo</h2>
+	  <h3 id="titulo1-5">GALERÍA FOTOGRÁFICA</h3>
+	  
+	  
+	   <!--GALERIA MOSAICO -->
+			  <div class="my-gallery" itemscope>
+
+			
+				<figure class="gallery-item" style="background-image:url(../images/galeria/foto1.jpg)" itemprop="associatedMedia" itemscope >
+				  <a   href="../images/galeria/foto1.jpg" itemprop="contentUrl" data-size="5336x3454">
+					  <img src="../images/galeria/foto1.jpg" itemprop="thumbnail" alt="Fotografía de coro 1" />
+				  </a>
+					<figcaption itemprop="caption description"></figcaption> 
+				   <div class="pantalla" style="background-image: url('../images/galeria/foto1.jpg')"></div>
+				</figure>
+				
+				
+				<figure class="gallery-item" style="background-image:url(../images/galeria/foto2.jpg)" itemprop="associatedMedia" itemscope >
+				  <a   href="../images/galeria/foto2.jpg" itemprop="contentUrl" data-size="5472x3648">
+					  <img src="../images/galeria/foto2.jpg" itemprop="thumbnail" alt="Fotografía de coro 2" />
+				  </a>
+					<figcaption itemprop="caption description"></figcaption> 
+				   <div class="pantalla" style="background-image: url('../images/galeria/foto2.jpg')"></div>
+				</figure>
+				
+				<figure class="gallery-item" style="background-image:url(../images/galeria/foto3.jpg)" itemprop="associatedMedia" itemscope >
+				  <a   href="../images/galeria/foto3.jpg" itemprop="contentUrl" data-size="3648x5472">
+					  <img src="../images/galeria/foto3.jpg" itemprop="thumbnail" alt="Fotografía de coro 3" />
+				  </a>
+					<figcaption itemprop="caption description"></figcaption> 
+				   <div class="pantalla" style="background-image: url('../images/galeria/foto3.jpg')"></div>
+				</figure>
+				
+				<figure class="gallery-item" style="background-image:url(../images/galeria/foto4.jpg)" itemprop="associatedMedia" itemscope >
+				  <a   href="../images/galeria/foto4.jpg" itemprop="contentUrl" data-size="5472x3648">
+					  <img src="../images/galeria/foto4.jpg" itemprop="thumbnail" alt="Fotografía de coro 4" />
+				  </a>
+					<figcaption itemprop="caption description"></figcaption> 
+				   <div class="pantalla" style="background-image: url('../images/galeria/foto4.jpg')"></div>
+				</figure>
+				
+				
+				<figure class="gallery-item" style="background-image:url(../images/galeria/foto5.jpg)" itemprop="associatedMedia" itemscope >
+				  <a   href="../images/galeria/foto5.jpg" itemprop="contentUrl" data-size="5472x3648">
+					  <img src="../images/galeria/foto5.jpg" itemprop="thumbnail" alt="Fotografía de coro 5" />
+				  </a>
+					<figcaption itemprop="caption description"></figcaption> 
+				   <div class="pantalla" style="background-image: url('../images/galeria/foto5.jpg')"></div>
+				</figure>
+				
+				<figure class="gallery-item" style="background-image:url(../images/galeria/foto6.jpg)" itemprop="associatedMedia" itemscope >
+				  <a   href="../images/galeria/foto6.jpg" itemprop="contentUrl" data-size="4824x3225">
+					  <img src="../images/galeria/foto6.jpg" itemprop="thumbnail" alt="Fotografía de coro 6" />
+				  </a>
+					<figcaption itemprop="caption description"></figcaption> 
+				   <div class="pantalla" style="background-image: url('../images/galeria/foto6.jpg')"></div>
+				</figure>
+				
+				<figure class="gallery-item" style="background-image:url(../images/galeria/foto7.jpg)" itemprop="associatedMedia" itemscope >
+				  <a   href="../images/galeria/foto7.jpg" itemprop="contentUrl" data-size="5472x3648">
+					  <img src="../images/galeria/foto7.jpg" itemprop="thumbnail" alt="Fotografía de coro 7" />
+				  </a>
+					<figcaption itemprop="caption description"></figcaption> 
+				   <div class="pantalla" style="background-image: url('../images/galeria/foto7.jpg')"></div>
+				</figure>
+				
+				
+				<figure class="gallery-item" style="background-image:url(../images/galeria/foto8.jpg)" itemprop="associatedMedia" itemscope >
+				  <a   href="../images/galeria/foto8.jpg" itemprop="contentUrl" data-size="5181x3648">
+					  <img src="../images/galeria/foto8.jpg" itemprop="thumbnail" alt="Fotografía de coro 8" />
+				  </a>
+					<figcaption itemprop="caption description"></figcaption> 
+				   <div class="pantalla" style="background-image: url('../images/galeria/foto8.jpg')"></div>
+				</figure>
+				
+				<figure class="gallery-item" style="background-image:url(../images/galeria/foto9.jpg)" itemprop="associatedMedia" itemscope >
+				  <a   href="../images/galeria/foto9.jpg" itemprop="contentUrl" data-size="5472x3648">
+					  <img src="../images/galeria/foto9.jpg" itemprop="thumbnail" alt="Fotografía de coro 9" />
+				  </a>
+					<figcaption itemprop="caption description"></figcaption> 
+				   <div class="pantalla" style="background-image: url('../images/galeria/foto9.jpg')"></div>
+				</figure>
+				
+				<figure class="gallery-item" style="background-image:url(../images/galeria/foto10.jpg)" itemprop="associatedMedia" itemscope >
+				  <a   href="../images/galeria/foto10.jpg" itemprop="contentUrl" data-size="3217x3648">
+					  <img src="../images/galeria/foto10.jpg" itemprop="thumbnail" alt="Fotografía de coro 10" />
+				  </a>
+					<figcaption itemprop="caption description"></figcaption> 
+				   <div class="pantalla" style="background-image: url('../images/galeria/foto10.jpg')"></div>
+				</figure>
+				
+				<figure class="gallery-item" style="background-image:url(../images/galeria/foto11.jpg)" itemprop="associatedMedia" itemscope >
+				  <a   href="../images/galeria/foto11.jpg" itemprop="contentUrl" data-size="5472x3648">
+					  <img src="../images/galeria/foto11.jpg" itemprop="thumbnail" alt="Fotografía de coro 11" />
+				  </a>
+					<figcaption itemprop="caption description"></figcaption> 
+				   <div class="pantalla" style="background-image: url('../images/galeria/foto11.jpg')"></div>
+				</figure>
+
+				<figure class="gallery-item" style="background-image:url(../images/galeria/foto12.jpg)" itemprop="associatedMedia" itemscope >
+				  <a   href="../images/galeria/foto12.jpg" itemprop="contentUrl" data-size="5472x3648">
+					  <img src="../images/galeria/foto12.jpg" itemprop="thumbnail" alt="Fotografía de coro 12" />
+				  </a>
+					<figcaption itemprop="caption description"></figcaption> 
+				   <div class="pantalla" style="background-image: url('../images/galeria/foto12.jpg')"></div>
+				</figure>
+				
+				<figure class="gallery-item" style="background-image:url(../images/galeria/foto13.jpg)" itemprop="associatedMedia" itemscope >
+				  <a   href="../images/galeria/foto13.jpg" itemprop="contentUrl" data-size="5472x3648">
+					  <img src="../images/galeria/foto13.jpg" itemprop="thumbnail" alt="Fotografía de coro 13" />
+				  </a>
+					<figcaption itemprop="caption description"></figcaption> 
+				   <div class="pantalla" style="background-image: url('../images/galeria/foto13.jpg')"></div>
+				</figure>
+				
+				<figure class="gallery-item" style="background-image:url(../images/galeria/foto14.jpg)" itemprop="associatedMedia" itemscope >
+				  <a   href="../images/galeria/foto14.jpg" itemprop="contentUrl" data-size="5472x2311">
+					  <img src="../images/galeria/foto14.jpg" itemprop="thumbnail" alt="Fotografía de coro 14" />
+				  </a>
+					<figcaption itemprop="caption description"></figcaption> 
+				   <div class="pantalla" style="background-image: url('../images/galeria/foto14.jpg')"></div>
+				</figure>
+				
+				<figure class="gallery-item" style="background-image:url(../images/galeria/foto15.jpg)" itemprop="associatedMedia" itemscope >
+				  <a   href="../images/galeria/foto15.jpg" itemprop="contentUrl" data-size="5472x3648">
+					  <img src="../images/galeria/foto15.jpg" itemprop="thumbnail" alt="Fotografía de coro 15" />
+				  </a>
+					<figcaption itemprop="caption description"></figcaption> 
+				   <div class="pantalla" style="background-image: url('../images/galeria/foto15.jpg')"></div>
+				</figure>
+				
+				<figure class="gallery-item" style="background-image:url(../images/galeria/foto16.jpg)" itemprop="associatedMedia" itemscope >
+				  <a   href="../images/galeria/foto16.jpg" itemprop="contentUrl" data-size="5472x3648">
+					  <img src="../images/galeria/foto16.jpg" itemprop="thumbnail" alt="Fotografía de coro 16" />
+				  </a>
+					<figcaption itemprop="caption description"></figcaption> 
+				   <div class="pantalla" style="background-image: url('../images/galeria/foto16.jpg')"></div>
+				</figure>
+				
+				<figure class="gallery-item" style="background-image:url(../images/galeria/foto17.jpg)" itemprop="associatedMedia" itemscope >
+				  <a   href="../images/galeria/foto17.jpg" itemprop="contentUrl" data-size="5472x3648">
+					  <img src="../images/galeria/foto17.jpg" itemprop="thumbnail" alt="Fotografía de coro 17" />
+				  </a>
+					<figcaption itemprop="caption description"></figcaption> 
+				   <div class="pantalla" style="background-image: url('../images/galeria/foto17.jpg')"></div>
+				</figure>
+				
+				<figure class="gallery-item" style="background-image:url(../images/galeria/foto18.jpg)" itemprop="associatedMedia" itemscope >
+				  <a   href="../images/galeria/foto18.jpg" itemprop="contentUrl" data-size="5472x3648">
+					  <img src="../images/galeria/foto18.jpg" itemprop="thumbnail" alt="Fotografía de coro 18" />
+				  </a>
+					<figcaption itemprop="caption description"></figcaption> 
+				   <div class="pantalla" style="background-image: url('../images/galeria/foto18.jpg')"></div>
+				</figure>
+				
+				<figure class="gallery-item" style="background-image:url(../images/galeria/foto19.jpg)" itemprop="associatedMedia" itemscope >
+				  <a   href="../images/galeria/foto19.jpg" itemprop="contentUrl" data-size="5114x3566">
+					  <img src="../images/galeria/foto19.jpg" itemprop="thumbnail" alt="Fotografía de coro 19" />
+				  </a>
+					<figcaption itemprop="caption description"></figcaption> 
+				   <div class="pantalla" style="background-image: url('../images/galeria/foto19.jpg')"></div>
+				</figure>
+				
+				<figure class="gallery-item" style="background-image:url(../images/galeria/foto20.jpg)" itemprop="associatedMedia" itemscope >
+				  <a   href="../images/galeria/foto20.jpg" itemprop="contentUrl" data-size="5156x3477">
+					  <img src="../images/galeria/foto20.jpg" itemprop="thumbnail" alt="Fotografía de coro 20" />
+				  </a>
+					<figcaption itemprop="caption description"></figcaption> 
+				   <div class="pantalla" style="background-image: url('../images/galeria/foto20.jpg')"></div>
+				</figure>
+				
+				<figure class="gallery-item" style="background-image:url(../images/galeria/foto21.jpg)" itemprop="associatedMedia" itemscope >
+				  <a   href="../images/galeria/foto21.jpg" itemprop="contentUrl" data-size="5472x3648">
+					  <img src="../images/galeria/foto21.jpg" itemprop="thumbnail" alt="Fotografía de coro 21" />
+				  </a>
+					<figcaption itemprop="caption description"></figcaption> 
+				   <div class="pantalla" style="background-image: url('../images/galeria/foto21.jpg')"></div>
+				</figure>
+				
+				<figure class="gallery-item" style="background-image:url(../images/galeria/foto22.jpg)" itemprop="associatedMedia" itemscope >
+				  <a   href="../images/galeria/foto22.jpg" itemprop="contentUrl" data-size="5472x3648">
+					  <img src="../images/galeria/foto22.jpg" itemprop="thumbnail" alt="Fotografía de coro 22" />
+				  </a>
+					<figcaption itemprop="caption description"></figcaption> 
+				   <div class="pantalla" style="background-image: url('../images/galeria/foto22.jpg')"></div>
+				</figure>
+				
+				<figure class="gallery-item" style="background-image:url(../images/galeria/foto23.jpg)" itemprop="associatedMedia" itemscope >
+				  <a   href="../images/galeria/foto23.jpg" itemprop="contentUrl" data-size="5472x3648">
+					  <img src="../images/galeria/foto23.jpg" itemprop="thumbnail" alt="Fotografía de coro 23" />
+				  </a>
+					<figcaption itemprop="caption description"></figcaption> 
+				   <div class="pantalla" style="background-image: url('../images/galeria/foto23.jpg')"></div>
+				</figure>
+				
+				<figure class="gallery-item" style="background-image:url(../images/galeria/foto24.jpg)" itemprop="associatedMedia" itemscope >
+				  <a   href="../images/galeria/foto24.jpg" itemprop="contentUrl" data-size="5472x3648">
+					  <img src="../images/galeria/foto24.jpg" itemprop="thumbnail" alt="Fotografía de coro 24" />
+				  </a>
+					<figcaption itemprop="caption description"></figcaption> 
+				   <div class="pantalla" style="background-image: url('../images/galeria/foto24.jpg')"></div>
+				</figure>
+				
+				<figure class="gallery-item" style="background-image:url(../images/galeria/foto25.jpg)" itemprop="associatedMedia" itemscope >
+				  <a   href="../images/galeria/foto25.jpg" itemprop="contentUrl" data-size="5472x3648">
+					  <img src="../images/galeria/foto25.jpg" itemprop="thumbnail" alt="Fotografía de coro 25" />
+				  </a>
+					<figcaption itemprop="caption description"></figcaption> 
+				   <div class="pantalla" style="background-image: url('../images/galeria/foto25.jpg')"></div>
+				</figure>
+				
+				<figure class="gallery-item" style="background-image:url(../images/galeria/foto26.jpg)" itemprop="associatedMedia" itemscope >
+				  <a   href="../images/galeria/foto26.jpg" itemprop="contentUrl" data-size="1920x1167">
+					  <img src="../images/galeria/foto26.jpg" itemprop="thumbnail" alt="Fotografía de coro 26" />
+				  </a>
+					<figcaption itemprop="caption description"></figcaption> 
+				   <div class="pantalla" style="background-image: url('../images/galeria/foto26.jpg')"></div>
+				</figure>
+				
+				<figure class="gallery-item" style="background-image:url(../images/galeria/foto27.jpg)" itemprop="associatedMedia" itemscope >
+				  <a   href="../images/galeria/foto27.jpg" itemprop="contentUrl" data-size="1629x1114">
+					  <img src="../images/galeria/foto27.jpg" itemprop="thumbnail" alt="Fotografía de coro 27" />
+				  </a>
+					<figcaption itemprop="caption description"></figcaption> 
+				   <div class="pantalla" style="background-image: url('../images/galeria/foto27.jpg')"></div>
+				</figure>
+				
+				<figure class="gallery-item" style="background-image:url(../images/galeria/foto28.jpg)" itemprop="associatedMedia" itemscope >
+				  <a   href="../images/galeria/foto28.jpg" itemprop="contentUrl" data-size="1920x1280">
+					  <img src="../images/galeria/foto28.jpg" itemprop="thumbnail" alt="Fotografía de coro 28" />
+				  </a>
+					<figcaption itemprop="caption description"></figcaption> 
+				   <div class="pantalla" style="background-image: url('../images/galeria/foto28.jpg')"></div>
+				</figure>
+				
+				<figure class="gallery-item" style="background-image:url(../images/galeria/foto29.jpg)" itemprop="associatedMedia" itemscope >
+				  <a   href="../images/galeria/foto29.jpg" itemprop="contentUrl" data-size="1920x1280">
+					  <img src="../images/galeria/foto29.jpg" itemprop="thumbnail" alt="Fotografía de coro 29" />
+				  </a>
+					<figcaption itemprop="caption description"></figcaption> 
+				   <div class="pantalla" style="background-image: url('../images/galeria/foto29.jpg')"></div>
+				</figure>
+				
+				<figure class="gallery-item" style="background-image:url(../images/galeria/foto30.jpg)" itemprop="associatedMedia" itemscope >
+				  <a   href="../images/galeria/foto30.jpg" itemprop="contentUrl" data-size="1920x1280">
+					  <img src="../images/galeria/foto30.jpg" itemprop="thumbnail" alt="Fotografía de coro 30" />
+				  </a>
+					<figcaption itemprop="caption description"></figcaption> 
+				   <div class="pantalla" style="background-image: url('../images/galeria/foto30.jpg')"></div>
+				</figure>
+				
+				<figure class="gallery-item" style="background-image:url(../images/galeria/foto31.jpg)" itemprop="associatedMedia" itemscope >
+				  <a   href="../images/galeria/foto31.jpg" itemprop="contentUrl" data-size="1920x1280">
+					  <img src="../images/galeria/foto31.jpg" itemprop="thumbnail" alt="Fotografía de coro 31" />
+				  </a>
+					<figcaption itemprop="caption description"></figcaption> 
+				   <div class="pantalla" style="background-image: url('../images/galeria/foto31.jpg')"></div>
+				</figure>
+				
+				<figure class="gallery-item" style="background-image:url(../images/galeria/foto32.jpg)" itemprop="associatedMedia" itemscope >
+				  <a   href="../images/galeria/foto32.jpg" itemprop="contentUrl" data-size="1920x1220">
+					  <img src="../images/galeria/foto32.jpg" itemprop="thumbnail" alt="Fotografía de coro 32" />
+				  </a>
+					<figcaption itemprop="caption description"></figcaption> 
+				   <div class="pantalla" style="background-image: url('../images/galeria/foto32.jpg')"></div>
+				</figure>
+				
+				<figure class="gallery-item" style="background-image:url(../images/galeria/foto33.jpg)" itemprop="associatedMedia" itemscope >
+				  <a   href="../images/galeria/foto33.jpg" itemprop="contentUrl" data-size="1920x1280">
+					  <img src="../images/galeria/foto33.jpg" itemprop="thumbnail" alt="Fotografía de coro 33" />
+				  </a>
+					<figcaption itemprop="caption description"></figcaption> 
+				   <div class="pantalla" style="background-image: url('../images/galeria/foto33.jpg')"></div>
+				</figure>
+				
+				<figure class="gallery-item" style="background-image:url(../images/galeria/foto34.jpg)" itemprop="associatedMedia" itemscope >
+				  <a   href="../images/galeria/foto34.jpg" itemprop="contentUrl" data-size="1920x1280">
+					  <img src="../images/galeria/foto34.jpg" itemprop="thumbnail" alt="Fotografía de coro 34" />
+				  </a>
+					<figcaption itemprop="caption description"></figcaption> 
+				   <div class="pantalla" style="background-image: url('../images/galeria/foto34.jpg')"></div>
+				</figure>
+				
+				<figure class="gallery-item" style="background-image:url(../images/galeria/foto35.jpg)" itemprop="associatedMedia" itemscope >
+				  <a   href="../images/galeria/foto35.jpg" itemprop="contentUrl" data-size="1920x1151">
+					  <img src="../images/galeria/foto35.jpg" itemprop="thumbnail" alt="Fotografía de coro 35" />
+				  </a>
+					<figcaption itemprop="caption description"></figcaption> 
+				   <div class="pantalla" style="background-image: url('../images/galeria/foto35.jpg')"></div>
+				</figure>
+				
+				<figure class="gallery-item" style="background-image:url(../images/galeria/foto36.jpg)" itemprop="associatedMedia" itemscope >
+				  <a   href="../images/galeria/foto36.jpg" itemprop="contentUrl" data-size="1920x1280">
+					  <img src="../images/galeria/foto36.jpg" itemprop="thumbnail" alt="Fotografía de coro 36" />
+				  </a>
+					<figcaption itemprop="caption description"></figcaption> 
+				   <div class="pantalla" style="background-image: url('../images/galeria/foto36.jpg')"></div>
+				</figure>
+				
+				<figure class="gallery-item" style="background-image:url(../images/galeria/foto37.jpg)" itemprop="associatedMedia" itemscope >
+				  <a   href="../images/galeria/foto37.jpg" itemprop="contentUrl" data-size="1920x1280">
+					  <img src="../images/galeria/foto37.jpg" itemprop="thumbnail" alt="Fotografía de coro 37" />
+				  </a>
+					<figcaption itemprop="caption description"></figcaption> 
+				   <div class="pantalla" style="background-image: url('../images/galeria/foto37.jpg')"></div>
+				</figure>
+				
+				<figure class="gallery-item" style="background-image:url(../images/galeria/foto38.jpg)" itemprop="associatedMedia" itemscope >
+				  <a   href="../images/galeria/foto38.jpg" itemprop="contentUrl" data-size="1920x1280">
+					  <img src="../images/galeria/foto38.jpg" itemprop="thumbnail" alt="Fotografía de coro 38" />
+				  </a>
+					<figcaption itemprop="caption description"></figcaption> 
+				   <div class="pantalla" style="background-image: url('../images/galeria/foto38.jpg')"></div>
+				</figure>
+				
+				<figure class="gallery-item" style="background-image:url(../images/galeria/foto39.jpg)" itemprop="associatedMedia" itemscope >
+				  <a   href="../images/galeria/foto39.jpg" itemprop="contentUrl" data-size="1920x1280">
+					  <img src="../images/galeria/foto39.jpg" itemprop="thumbnail" alt="Fotografía de coro 39" />
+				  </a>
+					<figcaption itemprop="caption description"></figcaption> 
+				   <div class="pantalla" style="background-image: url('../images/galeria/foto39.jpg')"></div>
+				</figure>
+				
+				<figure class="gallery-item" style="background-image:url(../images/galeria/foto40.jpg)" itemprop="associatedMedia" itemscope >
+				  <a   href="../images/galeria/foto40.jpg" itemprop="contentUrl" data-size="1468x1085">
+					  <img src="../images/galeria/foto40.jpg" itemprop="thumbnail" alt="Fotografía de coro 40" />
+				  </a>
+					<figcaption itemprop="caption description"></figcaption> 
+				   <div class="pantalla" style="background-image: url('../images/galeria/foto40.jpg')"></div>
+				</figure>
+				
+				<figure class="gallery-item" style="background-image:url(../images/galeria/foto41.jpg)" itemprop="associatedMedia" itemscope >
+				  <a   href="../images/galeria/foto41.jpg" itemprop="contentUrl" data-size="1920x1280">
+					  <img src="../images/galeria/foto41.jpg" itemprop="thumbnail" alt="Fotografía de coro 41" />
+				  </a>
+					<figcaption itemprop="caption description"></figcaption> 
+				   <div class="pantalla" style="background-image: url('../images/galeria/foto41.jpg')"></div>
+				</figure>
+				
+				<figure class="gallery-item" style="background-image:url(../images/galeria/foto42.jpg)" itemprop="associatedMedia" itemscope >
+				  <a   href="../images/galeria/foto42.jpg" itemprop="contentUrl" data-size="1920x1280">
+					  <img src="../images/galeria/foto42.jpg" itemprop="thumbnail" alt="Fotografía de coro 42" />
+				  </a>
+					<figcaption itemprop="caption description"></figcaption> 
+				   <div class="pantalla" style="background-image: url('../images/galeria/foto42.jpg')"></div>
+				</figure>
+				
+				<figure class="gallery-item" style="background-image:url(../images/galeria/foto43.jpg)" itemprop="associatedMedia" itemscope >
+				  <a   href="../images/galeria/foto43.jpg" itemprop="contentUrl" data-size="1920x1280">
+					  <img src="../images/galeria/foto43.jpg" itemprop="thumbnail" alt="Fotografía de coro 43" />
+				  </a>
+					<figcaption itemprop="caption description"></figcaption> 
+				   <div class="pantalla" style="background-image: url('../images/galeria/foto43.jpg')"></div>
+				</figure>
+				
+				<figure class="gallery-item" style="background-image:url(../images/galeria/foto44.jpg)" itemprop="associatedMedia" itemscope >
+				  <a   href="../images/galeria/foto44.jpg" itemprop="contentUrl" data-size="1920x1280">
+					  <img src="../images/galeria/foto44.jpg" itemprop="thumbnail" alt="Fotografía de coro 44" />
+				  </a>
+					<figcaption itemprop="caption description"></figcaption> 
+				   <div class="pantalla" style="background-image: url('../images/galeria/foto44.jpg')"></div>
+				</figure>
+				
+				<figure class="gallery-item" style="background-image:url(../images/galeria/foto45.jpg)" itemprop="associatedMedia" itemscope >
+				  <a   href="../images/galeria/foto45.jpg" itemprop="contentUrl" data-size="1920x1105">
+					  <img src="../images/galeria/foto45.jpg" itemprop="thumbnail" alt="Fotografía de coro 45" />
+				  </a>
+					<figcaption itemprop="caption description"></figcaption> 
+				   <div class="pantalla" style="background-image: url('../images/galeria/foto45.jpg')"></div>
+				</figure>
+			
+			  </div>
+
+			  <!--GALERIA MOSAICO -->
+			  
+<footer2 class="text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <p><a href="https://www.uned.ac.cr/" target="_blank">UNIVERSIDAD ESTATAL A DISTANCIA DE COSTA RICA</a></p>
+      </div>
+    </div>
+  </div>
+</footer2>
+	  
+</div>	
+
+
+
+<!--VENTANA DE DETALLE -->
+<!--https://schema.org/ImageGallery-->
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+    <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe. 
+         It's a separate element, as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides. PhotoSwipe keeps only 3 slides in DOM to save memory. -->
+        <!-- don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+               <!-- <button class="pswp__button pswp__button--share" title="Share"></button>-->
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+          </div>
+
+        </div>
+
+</div>
+<!--VENTANA DE DETALLE -->
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-153563382-8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+ 
+  gtag('config', 'UA-153563382-8');
+</script>
+
+<!--JS PARA VENTANA DE DETALLE -->
+<script src="../js/photoswipe-ui-default.min.js"></script>
+<script src="../js/photoswipe.min.js"></script>
+<!--JS PARA VENTANA DE DETALLE -->		
+	<!--JS PARA GALERIA MOSAICO -->
+	<script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+	<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<!--JS PARA GALERIA MOSAICO -->
+<script src="../js/funciones.js"></script>
+<script src="../js/funciones_ventana.js"></script>
+</body>
+</html>
